@@ -9,7 +9,6 @@ from shinywidgets import render_plotly
 
 tips = pd.read_csv("data/tips.csv")
 ui.include_css("styles.css")
-
 bill_rng = (min(tips.total_bill), max(tips.total_bill))
 
 # Add page title and sidebar
